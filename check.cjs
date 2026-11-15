@@ -59,6 +59,15 @@ console.log('PASS: syntax/startup, non-destructive loading, v1 migration, stable
  assert(!run('researchHTML({references:[{title:"<script>",url:"javascript:alert(1)",publishedAt:"",sourceType:""}]})').includes('href='));
  // Standalone topic reports: data validation, reader, search, bookmark, old-report compatibility.
  const trial=JSON.parse(fs.readFileSync('data/weekly/2026-W46-trial.json','utf8'));context.trial=trial;
+ assert.equal(trial.showOnHome,true);
+ assert.throws(()=>run('validatePublic({...trial,showOnHome:"yes"})'));
+ run('userReports=[];publicReports=[validatePublic(trial),validatePublic(fixture)];currentId=null');
+ assert.equal(run('active().id'),trial.id,'Promoted W46 trial should appear on homepage');
+ run('publicReports.push({...validatePublic(trial),id:"rw-public:next-week-formal",demo:false,date:"2026-11-22",showOnHome:false})');
+ assert.equal(run('active().id'),'rw-public:next-week-formal','A newer formal issue replaces trial on homepage');
+ run('publicReports=[validatePublic(trial),{...validatePublic(trial),id:"rw-public:same-week-formal",demo:false,showOnHome:false}];currentId=null');
+ assert.equal(run('active().id'),'rw-public:same-week-formal','Published issue takes precedence when dated the same as trial');
+
  assert.equal(trial.entries.length,5);assert.equal(trial.topics.length,2);assert.equal(run('validatePublic(trial).topics.length'),2);
  assert.throws(()=>run('validatePublic({...trial,topics:[trial.topics[0],trial.topics[0]]})'));
  assert.throws(()=>run('validatePublic({...trial,topics:[{...trial.topics[0],id:"wrong"}]})'));
