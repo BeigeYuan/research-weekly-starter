@@ -193,5 +193,6 @@
     "source": "本项目 assets/weekly/2026-W46-courtyard.png；仅依据文字描述生成，未输入参考图片或导入第三方素材。完整制作记录见 assets/weekly/2026-W46-courtyard.md。",
     "license": "经项目维护者视觉审核，选用于 Research Weekly 第 46 周演示周报。未另行附加素材许可证，不宣称公共领域或排他版权；第三方再利用须自行核实适用条款。",
     "method": "使用内置 image_gen，根据白墙、传统屋檐、红色花木及庭院空间的文字需求生成，经维护者确认采用；本次素材整理未重新生成或修改图像。"
-  }
+  },
+  "showOnHome": true
 }
