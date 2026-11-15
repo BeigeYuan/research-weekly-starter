@@ -57,6 +57,36 @@ console.log('PASS: syntax/startup, non-destructive loading, v1 migration, stable
  const before=storage.get('rw-reports-v1');context.fetch=async()=>{throw Error('offline')};await run('loadPublic()');assert(elements.get('publicStatus').textContent.includes('读取失败'));assert.equal(storage.get('rw-reports-v1'),before);assert(run('reports().some(r=>r.id==="old")'));
  context.fetch=async p=>p==='data/index.json'?{ok:true,json:async()=>context.index}:{ok:false,status:404};await run('loadPublic()');assert(elements.get('publicStatus').textContent.includes('部分'));assert.equal(run('publicReports.length'),0);
  assert(!run('researchHTML({references:[{title:"<script>",url:"javascript:alert(1)",publishedAt:"",sourceType:""}]})').includes('href='));
+ // Standalone topic reports: data validation, reader, search, bookmark, old-report compatibility.
+ const trial=JSON.parse(fs.readFileSync('data/weekly/2026-W46-trial.json','utf8'));context.trial=trial;
+ assert.equal(trial.showOnHome,true);
+ assert.throws(()=>run('validatePublic({...trial,showOnHome:"yes"})'));
+ run('userReports=[];publicReports=[validatePublic(trial),validatePublic(fixture)];currentId=null');
+ assert.equal(run('active().id'),trial.id,'Promoted W46 trial should appear on homepage');
+ run('publicReports.push({...validatePublic(trial),id:"rw-public:next-week-formal",demo:false,date:"2026-11-22",showOnHome:false})');
+ assert.equal(run('active().id'),'rw-public:next-week-formal','A newer formal issue replaces trial on homepage');
+ run('publicReports=[validatePublic(trial),{...validatePublic(trial),id:"rw-public:same-week-formal",demo:false,showOnHome:false}];currentId=null');
+ assert.equal(run('active().id'),'rw-public:same-week-formal','Published issue takes precedence when dated the same as trial');
+
+ assert.equal(trial.entries.length,5);assert.equal(trial.topics.length,2);assert.equal(run('validatePublic(trial).topics.length'),2);
+ assert.throws(()=>run('validatePublic({...trial,topics:[trial.topics[0],trial.topics[0]]})'));
+ assert.throws(()=>run('validatePublic({...trial,topics:[{...trial.topics[0],id:"wrong"}]})'));
+ assert.equal(run('validatePublic(fixture).topics'),undefined,'Old public JSON without topics remains valid');
+ run('userReports=[];publicReports=[validatePublic(trial)];currentId=trial.id;selected.clear();view="home";render()');
+ assert(elements.get('content').innerHTML.includes('独立专题报告'));
+ assert(elements.get('content').innerHTML.includes('宗教研究｜完整专题报告'));
+ assert(elements.get('content').innerHTML.includes('历史研究｜完整专题报告'));
+ assert.equal((elements.get('content').innerHTML.match(/data-topic=/g)||[]).length,2);
+ run('openReader(trial.id,null,true,trial.topics[0].id)');
+ assert(elements.get('article').innerHTML.includes('Graham'));
+ assert(!elements.get('article').innerHTML.includes('hero-image'));
+ assert.equal(run('opened.key'),'topic:'+trial.topics[0].id);
+ assert(context.location.hash.includes('topic='));
+ run('$("save").onclick()');
+ assert(run('saved.includes("topic:"+trial.topics[0].id)'));
+ run('view="saved";render()');assert(elements.get('content').innerHTML.includes('宗教研究｜完整专题报告'));
+ run('view="search";query="Graham";render()');assert(elements.get('results').innerHTML.includes('data-topic='));
+ run('view="archive";render()');assert(elements.get('content').innerHTML.includes('Research Weekly 试刊'));
  console.log('PASS: illustration fields, legacy JSON, theme fallback, image load/error/cache handlers, About credits and safe license links.');
  console.log('PASS: public JSON loading/validation, date order, filters, reader, local precedence, bookmarks, archives, request failures, safe references.');
 })().catch(e=>{console.error(e);process.exitCode=1});
