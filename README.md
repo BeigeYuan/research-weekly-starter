@@ -123,7 +123,7 @@ v0.3a 已通过隔离 Node VM 自动回归检查；真实浏览器视觉与点�
 
 装饰插画仅用于主页总报告卡片。「关于本站」的“插画与版权”小节只展示按周关联的文字记录，不展示图片。信息卡片、右侧阅读面板、档案、收藏和搜索都不增加插画。页面以白色为主，卡片保留柔和强调色。插画不需要低对比度：可使用清晰手绘线条、有空间层次的山野田园、建筑花木，也可偶尔选用传统纹样或动物。
 
-当前 W46 仍引用原有 assets/weekly/2026-W46-lake.svg，未更换图片、报告或条目 ID，也未更改 demo 身份。新版候选“白墙花影 v1”保存在 assets/weekly/candidates/courtyard-v1.png，仅供预览，尚未接入任何周报 JSON。生成方式、输入依据和完整最终提示词见该目录 README.md。候选由内置 image_gen 根据文字描述生成，未输入参考图片，不据此宣称公共领域。待用户选定后再配置正式图片。
+W46 已经维护者视觉审核，选用庭院插画《白墙花影》，正式素材路径为 assets/weekly/2026-W46-courtyard.png；报告及条目 ID、核心内容和 demo 身份保持不变。创作方式为内置 image_gen 根据文字描述辅助生成，未输入参考图片或导入第三方素材，不据此宣称公共领域或排他版权。完整生成提示词及使用记录见 assets/weekly/2026-W46-courtyard.md。
 
 ### 每周配置
 
@@ -158,11 +158,11 @@ themeColor 为可选六位十六进制色，建议柔和且文字可辨。没有
 ### Live Server 检查
 
 1. 在 VS Code 中打开整个项目，确认当前分支是 feature/weekly-illustrations。若已安装 Live Server，在 index.html 上右键选择 Open with Live Server，或点击底部 Go Live。使用它打开的 http://127.0.0.1:端口/ 地址，不双击 HTML。
-2. 主页 W46 暂时仍显示原图，但卡片下方不再有 Research Weekly · 原创 SVG，2026。进入左侧“关于本站”，检查“插画与版权”的 W46 关联记录。
-3. 在同一 Live Server 地址后加 assets/weekly/candidates/courtyard-v1.png，单独预览新候选；它尚未成为首页插画。确认后再修改 heroImage、heroImageAlt 和 heroImageRights。
+2. 主页 W46 应显示《白墙花影》庭院插画，卡片内不显示署名。进入左侧“关于本站”，检查对应的插画名称、创作方式、来源和使用说明。
+3. 在同一 Live Server 地址后加 assets/weekly/2026-W46-courtyard.png，可单独查看正式素材。以后每周可选不同风格，仅修改该期 heroImage、heroImageAlt、heroImageRights、可选 heroImageCredit 和 themeColor，并加入图片资源，无需修改网页主体代码或按固定风格轮换。
 4. 分别在桌面及开发者工具 900px、760px、390px 宽度下检查：文字与图分区、图片比例正常、无横向溢出。检查阅读面板、档案、收藏和搜索没有新增装饰图片。
 5. 在临时测试副本中将 heroImage 改为 assets/weekly/missing.svg，刷新检查回退；移除可选插画字段检查旧 JSON；还原测试修改。检查筛选、收藏、目录、参考链接及 JSON 备份功能。
 
 自动检查仍运行 node check.cjs。隔离测试已覆盖原功能、版权字段校验、首页无署名、About 兼容署名及安全链接、图片正常/失败/缓存加载、旧 JSON 和主题色回退。检查不接触用户浏览器数据，不代替真实浏览器响应式视觉验收；本次未完成真实浏览器视觉与点击测试。
 
-工作保留在插画开发分支，尚未推送、合并或部署 GitHub Pages；候选选用待用户确认。
+本轮最终整理保留在 feature/weekly-illustrations 分支，庭院图已确认选用；本轮未提交、推送、合并或部署。

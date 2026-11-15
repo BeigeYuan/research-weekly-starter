@@ -34,15 +34,15 @@
       }
     }
   ],
-  "heroImage": "assets/weekly/2026-W46-lake.svg",
-  "heroImageAlt": "原创淡彩山水：淡紫灰远山环抱宁静水面，近处一枝暖黄色秋叶。",
-  "heroImageCredit": "Research Weekly · 原创 SVG，2026",
+  "heroImage": "assets/weekly/2026-W46-courtyard.png",
+  "heroImageAlt": "白墙花影：红色花枝映衬白墙灰瓦，半开的木门通向庭院，石阶与树影形成层次。",
+  "heroImageCredit": "白墙花影 · AI 辅助生成（image_gen）",
   "themeColor": "#806b91",
   "heroImageRights": {
-    "title": "秋水远山（原版演示插画，待视觉修订）",
-    "creator": "AI 辅助制作（SVG 代码）",
-    "source": "本项目 assets/weekly/2026-W46-lake.svg；未采用第三方图片素材",
-    "license": "项目原创制作记录；未附独立素材许可证，不宣称公共领域。正式发布前由维护者确认使用条件。",
-    "method": "根据项目文字需求，以 AI 辅助方式编写静态 SVG。新候选插画尚待选定，当前图片暂留。"
+    "title": "白墙花影",
+    "creator": "AI 辅助生成（OpenAI image_gen），由项目维护者审核选用",
+    "source": "本项目 assets/weekly/2026-W46-courtyard.png；仅依据文字描述生成，未输入参考图片或导入第三方素材。完整制作记录见 assets/weekly/2026-W46-courtyard.md。",
+    "license": "经项目维护者视觉审核，选用于 Research Weekly 第 46 周演示周报。未另行附加素材许可证，不宣称公共领域或排他版权；第三方再利用须自行核实适用条款。",
+    "method": "使用内置 image_gen，根据白墙、传统屋檐、红色花木及庭院空间的文字需求生成，经维护者确认采用；本次素材整理未重新生成或修改图像。"
   }
 }
