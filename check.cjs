@@ -68,7 +68,7 @@ console.log('PASS: syntax/startup, non-destructive loading, v1 migration, stable
  run('publicReports=[validatePublic(trial),{...validatePublic(trial),id:"rw-public:same-week-formal",demo:false,showOnHome:false}];currentId=null');
  assert.equal(run('active().id'),'rw-public:same-week-formal','Published issue takes precedence when dated the same as trial');
 
- assert.equal(trial.entries.length,5);assert.equal(trial.topics.length,2);assert.equal(run('validatePublic(trial).topics.length'),2);
+ assert.equal(trial.entries.length,11);assert.equal(trial.topics.length,5);assert.equal(run('validatePublic(trial).topics.length'),5);
  assert.throws(()=>run('validatePublic({...trial,topics:[trial.topics[0],trial.topics[0]]})'));
  assert.throws(()=>run('validatePublic({...trial,topics:[{...trial.topics[0],id:"wrong"}]})'));
  assert.equal(run('validatePublic(fixture).topics'),undefined,'Old public JSON without topics remains valid');
@@ -76,7 +76,8 @@ console.log('PASS: syntax/startup, non-destructive loading, v1 migration, stable
  assert(elements.get('content').innerHTML.includes('独立专题报告'));
  assert(elements.get('content').innerHTML.includes('宗教研究｜完整专题报告'));
  assert(elements.get('content').innerHTML.includes('历史研究｜完整专题报告'));
- assert.equal((elements.get('content').innerHTML.match(/data-topic=/g)||[]).length,2);
+ assert.equal((elements.get('content').innerHTML.match(/data-topic=/g)||[]).length,5);
+ for(const t of ['人类学研究｜完整专题报告','艺术研究｜完整专题报告','游戏研究｜完整专题报告'])assert(elements.get('content').innerHTML.includes(t));
  run('openReader(trial.id,null,true,trial.topics[0].id)');
  assert(elements.get('article').innerHTML.includes('Graham'));
  assert(!elements.get('article').innerHTML.includes('hero-image'));
@@ -86,7 +87,7 @@ console.log('PASS: syntax/startup, non-destructive loading, v1 migration, stable
  assert(run('saved.includes("topic:"+trial.topics[0].id)'));
  run('view="saved";render()');assert(elements.get('content').innerHTML.includes('宗教研究｜完整专题报告'));
  run('view="search";query="Graham";render()');assert(elements.get('results').innerHTML.includes('data-topic='));
- run('view="archive";render()');assert(elements.get('content').innerHTML.includes('Research Weekly 试刊'));
+ run('view="archive";render()');assert(elements.get('content').innerHTML.includes('Research Weekly 五专题试刊'));
  console.log('PASS: illustration fields, legacy JSON, theme fallback, image load/error/cache handlers, About credits and safe license links.');
  console.log('PASS: public JSON loading/validation, date order, filters, reader, local precedence, bookmarks, archives, request failures, safe references.');
 })().catch(e=>{console.error(e);process.exitCode=1});
