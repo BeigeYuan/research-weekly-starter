@@ -1,0 +1,212 @@
+{
+  "id": "rw-public:2026-W46-zz-auto-test",
+  "week": "2026-W46",
+  "startDate": "2026-11-09",
+  "endDate": "2026-11-15",
+  "date": "2026-11-15",
+  "demo": true,
+  "reviewStatus": "draft",
+  "showOnHome": true,
+  "title": "Research Weekly 五专题自动化审核稿｜2026年第46周",
+  "summary": "独立核查五个领域各一项本周成果；区分全文、摘要与摘录的证据层级，并讨论规范、实践及研究资料的边界。",
+  "body": "# Research Weekly｜2026年第46周五专题自动化审核稿\n\n本期是独立于既有试刊的自动化端到端测试，2026年11月15日重新核对公开来源后筛选出5项重点信息，五专题各一项。它不是穷尽性学术动态监测，且不将未取得全文的文章当作全文已核查。\n\n## 研究与证据层级\n宗教研究以古罗马朝圣关系理论为例，检验物质移动与神明辖域职权之间的概念差异；历史研究借女性阅读实践说明规范与行动不可混同；人类学将热环境视为日常身体劳动与责任分配的过程；艺术研究讨论绘画形式如何被解释为政治想象，但不把形式等同于已证实的政治效果；游戏研究将长期资料障碍理解为跨机构协调问题。\n\n## 跨领域的比较及限度\n本期可以提出三个相互关联但不能互相替代的问题：一是规范或理论概念如何落实到具体行动；二是哪些身体、物件、场所或数据设施使行动可能；三是研究者所见的材料如何受到保存、样本与获取权限的塑造。古罗马朝圣、法国阅读史、加州劳动民族志、南斯拉夫绘画和当代游戏研究没有共享的单一历史机制。比较价值在于研究设计与证据批判，而不是寻找跨文化同构。\n\n## 编辑决策\n严格区分在线发表、卷期、调查时间和获奖时间。宗教方向的社令雷文章及人类学方向的数字遗产论文已经核查，但因本期选择质量和主题均衡，不额外凑入重点条目。未形成中文日文系统监测，电影、音乐及游戏宗教研究覆盖不足。所有评价均为初评，需人工审核。\n\n## 专题报告\n- 宗教研究｜独立专题报告\n- 历史研究｜独立专题报告\n- 人类学研究｜独立专题报告\n- 艺术研究｜独立专题报告\n- 游戏研究｜独立专题报告\n",
+  "entries": [
+    {
+      "id": "rw-public:2026-W46-zz-auto-test:graham",
+      "title": "Graham以集合体理论重审古罗马朝圣的移动与物质关系",
+      "date": "2026-11-12",
+      "tags": [
+        "宗教研究",
+        "理论",
+        "评论",
+        "案例"
+      ],
+      "source": "Journal of Roman Archaeology",
+      "detail": "## 研究与问题\n不把朝圣固定为远行或特定圣所，而将移动中的人与物、铭文、道路、神明等关系层累作为问题；这是既有集合体方法在古罗马朝圣专题中的综合运用。\n\n## 材料与方法\n作者综合专题组的圣所、道路与铭文案例，特别讨论Monte do Facho的奉献铭文和Arsameia阶梯通道；本身并非新田野报告。\n\n## 独立评价与证据界限\n关系层累何以使朝圣区别于日常祭祀仍需经验判准；territorialization并非神明的辖境职权，不能与中国辖域神直接等同。\n\n## 核查依据\n2026-11-15核读Cambridge开放全文及在线日期。",
+      "references": [
+        {
+          "title": "Emma-Jayne Graham, Afterword: Posthuman pathways to pilgrimage in the Roman world",
+          "url": "https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/afterword-posthuman-pathways-to-pilgrimage-in-the-roman-world/9885A822AB1F1338C61FC9C81DDCF87E",
+          "publishedAt": "2026-11-12",
+          "sourceType": "同行评议期刊·开放全文·专题结语"
+        }
+      ],
+      "evaluation": {
+        "contribution": "不把朝圣固定为远行或特定圣所，而将移动中的人与物、铭文、道路、神明等关系层累作为问题；这是既有集合体方法在古罗马朝圣专题中的综合运用。",
+        "evidence": "作者综合专题组的圣所、道路与铭文案例，特别讨论Monte do Facho的奉献铭文和Arsameia阶梯通道；本身并非新田野报告。",
+        "limitations": "关系层累何以使朝圣区别于日常祭祀仍需经验判准；territorialization并非神明的辖境职权，不能与中国辖域神直接等同。",
+        "basis": "2026-11-15核读Cambridge开放全文及在线日期。"
+      }
+    },
+    {
+      "id": "rw-public:2026-W46-zz-auto-test:matamoros",
+      "title": "Matamoros通过劳动阶层女性自述重估十九世纪法国的阅读实践",
+      "date": "2026-11-10",
+      "tags": [
+        "历史研究",
+        "案例",
+        "理论",
+        "新作"
+      ],
+      "source": "International Review of Social History",
+      "detail": "## 研究与问题\n从识字二分与政治解放目的论转向具体阅读能力、选择与解释，揭示宗教教育、小说阅读和政治书信之间的多种关系。\n\n## 材料与方法\n七位普通阶层女性的自传及1840年代寄给社会主义思想家的书信；文中分析宗教读物与小说的阅读张力。\n\n## 独立评价与证据界限\n可留存自传与书信者存在选择偏差，不能推算整个劳动阶层女性的阅读比例；回忆录可能重构经历。\n\n## 核查依据\n2026-11-15核读Cambridge开放全文与2026-11-10在线发表信息。",
+      "references": [
+        {
+          "title": "Isabelle Matamoros, Could Nineteenth-Century Working-Class Women Read?",
+          "url": "https://www.cambridge.org/core/journals/international-review-of-social-history/article/could-nineteenthcentury-workingclass-women-read-some-female-readers-under-the-july-monarchy-france-18301848/83915FDCDA63336FEA25BA086FF92F73",
+          "publishedAt": "2026-11-10",
+          "sourceType": "同行评议期刊·开放全文"
+        }
+      ],
+      "evaluation": {
+        "contribution": "从识字二分与政治解放目的论转向具体阅读能力、选择与解释，揭示宗教教育、小说阅读和政治书信之间的多种关系。",
+        "evidence": "七位普通阶层女性的自传及1840年代寄给社会主义思想家的书信；文中分析宗教读物与小说的阅读张力。",
+        "limitations": "可留存自传与书信者存在选择偏差，不能推算整个劳动阶层女性的阅读比例；回忆录可能重构经历。",
+        "basis": "2026-11-15核读Cambridge开放全文与2026-11-10在线发表信息。"
+      }
+    },
+    {
+      "id": "rw-public:2026-W46-zz-auto-test:thermal",
+      "title": "Imperial Valley民族志提出热劳动，讨论劳动者维持身体安全的隐形成本",
+      "date": "2026-11-12",
+      "tags": [
+        "人类学研究",
+        "案例",
+        "理论",
+        "新作"
+      ],
+      "source": "NAPA Bulletin",
+      "detail": "## 研究与问题\n将热风险从静态暴露转化为工作前准备、工作中身体监测和雇佣劳动交错的日常实践问题。\n\n## 材料与方法\n2022—2025年Imperial Valley民族志与100余次访谈，涉及农业、建筑及屋顶作业者。\n\n## 独立评价与证据界限\nthermal labor与既有照护劳动、身体劳动概念的理论增量仍须比较；特定地区与行业不能直接代表全部热风险劳动。\n\n## 核查依据\n2026-11-15核对Wiley/AnthroSource期刊页面、摘要和在线日期；评价主要依据摘要。",
+      "references": [
+        {
+          "title": "If You're Not Careful It'll Kill You: Extreme Heat and Thermal Labor in Imperial Valley, California",
+          "url": "https://anthrosource.onlinelibrary.wiley.com/doi/full/10.1002/nad.70021",
+          "publishedAt": "2026-11-12",
+          "sourceType": "人类学期刊·在线全文/摘要"
+        }
+      ],
+      "evaluation": {
+        "contribution": "将热风险从静态暴露转化为工作前准备、工作中身体监测和雇佣劳动交错的日常实践问题。",
+        "evidence": "2022—2025年Imperial Valley民族志与100余次访谈，涉及农业、建筑及屋顶作业者。",
+        "limitations": "thermal labor与既有照护劳动、身体劳动概念的理论增量仍须比较；特定地区与行业不能直接代表全部热风险劳动。",
+        "basis": "2026-11-15核对Wiley/AnthroSource期刊页面、摘要和在线日期；评价主要依据摘要。"
+      }
+    },
+    {
+      "id": "rw-public:2026-W46-zz-auto-test:bell",
+      "title": "Bell分析Lubarda《工业化》的绘画形式与南斯拉夫不结盟现代性",
+      "date": "2026-11-13",
+      "tags": [
+        "艺术研究",
+        "案例",
+        "新作"
+      ],
+      "source": "Oxford Art Journal",
+      "detail": "## 研究与问题\n将建造场景、材料和绘画形式放入南斯拉夫不结盟政治的语境，避免仅将画作当成意识形态的被动图解。\n\n## 材料与方法\n以Petar Lubarda 1958—1961年绘画Industrialization/Prometheans of the New Century为中心，出版页面公开了文章引文和开篇。\n\n## 独立评价与证据界限\n目前仅核查开放摘录，不能证明其接受史与政治效果已经被充分论证；绘画形式和政治实践不能自动等同。\n\n## 核查依据\n2026-11-15核对Oxford Art Journal官方页面与2026-11-13发表日期；非全文核查。",
+      "references": [
+        {
+          "title": "Jessy Bell, Constructive Uses of Solidarity: Yugoslav Nonalignment and Petar Lubarda’s Industrialization (1958–1961)",
+          "url": "https://academic.oup.com/oaj/advance-article-abstract/doi/10.1093/oxartj/kcag020/9040881",
+          "publishedAt": "2026-11-13",
+          "sourceType": "同行评议期刊·摘要与公开摘录"
+        }
+      ],
+      "evaluation": {
+        "contribution": "将建造场景、材料和绘画形式放入南斯拉夫不结盟政治的语境，避免仅将画作当成意识形态的被动图解。",
+        "evidence": "以Petar Lubarda 1958—1961年绘画Industrialization/Prometheans of the New Century为中心，出版页面公开了文章引文和开篇。",
+        "limitations": "目前仅核查开放摘录，不能证明其接受史与政治效果已经被充分论证；绘画形式和政治实践不能自动等同。",
+        "basis": "2026-11-15核对Oxford Art Journal官方页面与2026-11-13发表日期；非全文核查。"
+      }
+    },
+    {
+      "id": "rw-public:2026-W46-zz-auto-test:games-method",
+      "title": "跨部门Delphi研究将游戏研究的资料瓶颈界定为持续的协调问题",
+      "date": "2026-11-14",
+      "tags": [
+        "游戏研究",
+        "理论",
+        "案例",
+        "新作"
+      ],
+      "source": "Global Perspectives in Communication",
+      "detail": "## 研究与问题\n不将数据共享等旧问题包装成新发现，而以2025年的结构化专家调查提供可供未来追踪的基准，指出协调与激励的制度障碍。\n\n## 材料与方法\nDelphi两轮85与59人、World Café 30人；期刊正文列出数据共享、透明度、暗黑模式等排序与样本组成。\n\n## 独立评价与证据界限\n专家样本不代表整个领域；Delphi偏学界而World Café偏产业，优先事项排序不能证明措施有效或达成行业共识；卷期2026年10月与在线发表11月14日不同。\n\n## 核查依据\n2026-11-15核读Oxford期刊正文、文章历史和在线日期。",
+      "references": [
+        {
+          "title": "Persistent priorities in video game research: a cross-sector benchmark for coordinated progress",
+          "url": "https://academic.oup.com/gpc/article/1/4/wpag020/9055793",
+          "publishedAt": "2026-11-14",
+          "sourceType": "同行评议期刊·开放正文"
+        }
+      ],
+      "evaluation": {
+        "contribution": "不将数据共享等旧问题包装成新发现，而以2025年的结构化专家调查提供可供未来追踪的基准，指出协调与激励的制度障碍。",
+        "evidence": "Delphi两轮85与59人、World Café 30人；期刊正文列出数据共享、透明度、暗黑模式等排序与样本组成。",
+        "limitations": "专家样本不代表整个领域；Delphi偏学界而World Café偏产业，优先事项排序不能证明措施有效或达成行业共识；卷期2026年10月与在线发表11月14日不同。",
+        "basis": "2026-11-15核读Oxford期刊正文、文章历史和在线日期。"
+      }
+    }
+  ],
+  "topics": [
+    {
+      "id": "rw-public:2026-W46-zz-auto-test:topic:religion",
+      "title": "宗教研究｜独立专题报告",
+      "tags": [
+        "宗教研究",
+        "专题分析",
+        "待审核"
+      ],
+      "body": "# 宗教研究｜Research Weekly 2026年第46周（自动化审核稿）\n\n**检索窗口**：2026-11-09—11-15。**状态**：草稿；定向检索，不是领域穷尽性调查。核查日期：2026-11-15。\n\n## 检索思路与出版监测\n本周问题驱动检索古罗马朝圣与中国道教仪式，出版监测核查了Cambridge及Religions近期论文。重点不在概念表面相似，而在神圣权威与空间关系是否存在可证的制度性职权。\n\n## 本周重点研究\n### Graham以集合体理论重审古罗马朝圣的移动与物质关系\n**来源**：Journal of Roman Archaeology；在线日期：2026-11-12；https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/afterword-posthuman-pathways-to-pilgrimage-in-the-roman-world/9885A822AB1F1338C61FC9C81DDCF87E\n\n## 研究与问题\n不把朝圣固定为远行或特定圣所，而将移动中的人与物、铭文、道路、神明等关系层累作为问题；这是既有集合体方法在古罗马朝圣专题中的综合运用。\n\n## 材料与方法\n作者综合专题组的圣所、道路与铭文案例，特别讨论Monte do Facho的奉献铭文和Arsameia阶梯通道；本身并非新田野报告。\n\n## 独立评价与证据界限\n关系层累何以使朝圣区别于日常祭祀仍需经验判准；territorialization并非神明的辖境职权，不能与中国辖域神直接等同。\n\n## 核查依据\n2026-11-15核读Cambridge开放全文及在线日期。\n\n## 进一步分析与取舍\n殷天杰、李远国关于内丹图与雷法存思的论文确于11月13日发表于Religions（https://doi.org/10.3390/rel17111336）。它引用《九天碧潭雷祷雨大法》，与社令雷有关，但身体宇宙对应和内修已有Despeux、Meulenbeld等研究。该文暂作资料线索，不因主题贴近而强行纳入重点条目；尤其不可把社令雷部、九州社令和地方所祠神混同。\n\n## 覆盖限制\n本轮仅对少量英文国际期刊和开放学术页面进行了针对性检索；中文、日文及其他语种未形成系统覆盖。没有查证的出版动态不列为成果。下期应扩充出版社目录、专业期刊、研究评论和播客，并记录阴性检索结果。\n"
+    },
+    {
+      "id": "rw-public:2026-W46-zz-auto-test:topic:history",
+      "title": "历史研究｜独立专题报告",
+      "tags": [
+        "历史研究",
+        "专题分析",
+        "待审核"
+      ],
+      "body": "# 历史研究｜Research Weekly 2026年第46周（自动化审核稿）\n\n**检索窗口**：2026-11-09—11-15。**状态**：草稿；定向检索，不是领域穷尽性调查。核查日期：2026-11-15。\n\n## 检索思路与出版监测\n本周问题检索围绕读写能力、文本实践及社会史解释；出版动态核查International Review of Social History的First View。优先选择具有可识别史料路径的研究，而不是抽象宣布弱势群体具有能动性。\n\n## 本周重点研究\n### Matamoros通过劳动阶层女性自述重估十九世纪法国的阅读实践\n**来源**：International Review of Social History；在线日期：2026-11-10；https://www.cambridge.org/core/journals/international-review-of-social-history/article/could-nineteenthcentury-workingclass-women-read-some-female-readers-under-the-july-monarchy-france-18301848/83915FDCDA63336FEA25BA086FF92F73\n\n## 研究与问题\n从识字二分与政治解放目的论转向具体阅读能力、选择与解释，揭示宗教教育、小说阅读和政治书信之间的多种关系。\n\n## 材料与方法\n七位普通阶层女性的自传及1840年代寄给社会主义思想家的书信；文中分析宗教读物与小说的阅读张力。\n\n## 独立评价与证据界限\n可留存自传与书信者存在选择偏差，不能推算整个劳动阶层女性的阅读比例；回忆录可能重构经历。\n\n## 核查依据\n2026-11-15核读Cambridge开放全文与2026-11-10在线发表信息。\n\n## 进一步分析与取舍\nMatamoros文章的强处是通过七位女性自述与具体通信重新理解阅读实践，而非用识字统计替代历史行动。宗教书籍既可能限制阅读范围，又是识字的重要入口。与宗教文书研究比较时应分开规范、实际阅读和文本留存偏差。\n\n## 覆盖限制\n本轮仅对少量英文国际期刊和开放学术页面进行了针对性检索；中文、日文及其他语种未形成系统覆盖。没有查证的出版动态不列为成果。下期应扩充出版社目录、专业期刊、研究评论和播客，并记录阴性检索结果。\n"
+    },
+    {
+      "id": "rw-public:2026-W46-zz-auto-test:topic:anthropology",
+      "title": "人类学研究｜独立专题报告",
+      "tags": [
+        "人类学研究",
+        "专题分析",
+        "待审核"
+      ],
+      "body": "# 人类学研究｜Research Weekly 2026年第46周（自动化审核稿）\n\n**检索窗口**：2026-11-09—11-15。**状态**：草稿；定向检索，不是领域穷尽性调查。核查日期：2026-11-15。\n\n## 检索思路与出版监测\n本周以身体、环境和实践为问题线索，检查NAPA Bulletin以及Public Humanities的相关出版动态。后一刊的博物馆研究与人类学交叉，但不应冒充民族志。\n\n## 本周重点研究\n### Imperial Valley民族志提出热劳动，讨论劳动者维持身体安全的隐形成本\n**来源**：NAPA Bulletin；在线日期：2026-11-12；https://anthrosource.onlinelibrary.wiley.com/doi/full/10.1002/nad.70021\n\n## 研究与问题\n将热风险从静态暴露转化为工作前准备、工作中身体监测和雇佣劳动交错的日常实践问题。\n\n## 材料与方法\n2022—2025年Imperial Valley民族志与100余次访谈，涉及农业、建筑及屋顶作业者。\n\n## 独立评价与证据界限\nthermal labor与既有照护劳动、身体劳动概念的理论增量仍须比较；特定地区与行业不能直接代表全部热风险劳动。\n\n## 核查依据\n2026-11-15核对Wiley/AnthroSource期刊页面、摘要和在线日期；评价主要依据摘要。\n\n## 进一步分析与取舍\nAndrea Kocsis的Exhibiting Digital Disappearance（2026-11-09，https://doi.org/10.1017/pub.2026.10290）已核对Cambridge开放正文。其Digital Ghosts展览将网页档案的不完整性转为公众可感知的策展经验。它适合作为方法旁证，但本期重点条目保留有百余访谈的热劳动民族志。\n\n## 覆盖限制\n本轮仅对少量英文国际期刊和开放学术页面进行了针对性检索；中文、日文及其他语种未形成系统覆盖。没有查证的出版动态不列为成果。下期应扩充出版社目录、专业期刊、研究评论和播客，并记录阴性检索结果。\n"
+    },
+    {
+      "id": "rw-public:2026-W46-zz-auto-test:topic:art",
+      "title": "艺术研究｜独立专题报告",
+      "tags": [
+        "艺术研究",
+        "专题分析",
+        "待审核"
+      ],
+      "body": "# 艺术研究｜Research Weekly 2026年第46周（自动化审核稿）\n\n**检索窗口**：2026-11-09—11-15。**状态**：草稿；定向检索，不是领域穷尽性调查。核查日期：2026-11-15。\n\n## 检索思路与出版监测\n本周检查Oxford Art Journal新发表论文，同时关注表演、博物馆与视觉文化的社会关系。对形式分析与接受史的证据层级必须分开。\n\n## 本周重点研究\n### Bell分析Lubarda《工业化》的绘画形式与南斯拉夫不结盟现代性\n**来源**：Oxford Art Journal；在线日期：2026-11-13；https://academic.oup.com/oaj/advance-article-abstract/doi/10.1093/oxartj/kcag020/9040881\n\n## 研究与问题\n将建造场景、材料和绘画形式放入南斯拉夫不结盟政治的语境，避免仅将画作当成意识形态的被动图解。\n\n## 材料与方法\n以Petar Lubarda 1958—1961年绘画Industrialization/Prometheans of the New Century为中心，出版页面公开了文章引文和开篇。\n\n## 独立评价与证据界限\n目前仅核查开放摘录，不能证明其接受史与政治效果已经被充分论证；绘画形式和政治实践不能自动等同。\n\n## 核查依据\n2026-11-15核对Oxford Art Journal官方页面与2026-11-13发表日期；非全文核查。\n\n## 进一步分析与取舍\nBell文章把画面中的建造与南斯拉夫现代化语境联系，但仅据开放摘录无法确认作品如何被实际观众或机构接受。今后需扩充中文、日文艺术史和电影、音乐研究；本次没有足够证据将这些方向的零星线索列为本周重点。\n\n## 覆盖限制\n本轮仅对少量英文国际期刊和开放学术页面进行了针对性检索；中文、日文及其他语种未形成系统覆盖。没有查证的出版动态不列为成果。下期应扩充出版社目录、专业期刊、研究评论和播客，并记录阴性检索结果。\n"
+    },
+    {
+      "id": "rw-public:2026-W46-zz-auto-test:topic:games",
+      "title": "游戏研究｜独立专题报告",
+      "tags": [
+        "游戏研究",
+        "专题分析",
+        "待审核"
+      ],
+      "body": "# 游戏研究｜Research Weekly 2026年第46周（自动化审核稿）\n\n**检索窗口**：2026-11-09—11-15。**状态**：草稿；定向检索，不是领域穷尽性调查。核查日期：2026-11-15。\n\n## 检索思路与出版监测\n本周以游戏研究的方法、证据基础与实际游玩经验为双线，核查Oxford学术期刊新文章，排除促销和发行资讯。\n\n## 本周重点研究\n### 跨部门Delphi研究将游戏研究的资料瓶颈界定为持续的协调问题\n**来源**：Global Perspectives in Communication；在线日期：2026-11-14；https://academic.oup.com/gpc/article/1/4/wpag020/9055793\n\n## 研究与问题\n不将数据共享等旧问题包装成新发现，而以2025年的结构化专家调查提供可供未来追踪的基准，指出协调与激励的制度障碍。\n\n## 材料与方法\nDelphi两轮85与59人、World Café 30人；期刊正文列出数据共享、透明度、暗黑模式等排序与样本组成。\n\n## 独立评价与证据界限\n专家样本不代表整个领域；Delphi偏学界而World Café偏产业，优先事项排序不能证明措施有效或达成行业共识；卷期2026年10月与在线发表11月14日不同。\n\n## 核查依据\n2026-11-15核读Oxford期刊正文、文章历史和在线日期。\n\n## 进一步分析与取舍\n这篇文章的2026年10月卷期与11月14日在线日期不同；调查于2025年进行，不能写成2026年游戏行业已经达成的新共识。其价值是明确样本与机构差异，并提出可追踪的行动基准。虚构宗教与游戏世界研究仍值得继续监测，但本次不以未核实全文的文章凑数。\n\n## 覆盖限制\n本轮仅对少量英文国际期刊和开放学术页面进行了针对性检索；中文、日文及其他语种未形成系统覆盖。没有查证的出版动态不列为成果。下期应扩充出版社目录、专业期刊、研究评论和播客，并记录阴性检索结果。\n"
+    }
+  ],
+  "heroImage": "assets/weekly/2026-W46-courtyard.png",
+  "heroImageAlt": "白墙花影：红色花枝映衬白墙灰瓦的庭院插画。",
+  "heroImageCredit": "白墙花影 · AI 辅助生成（image_gen）",
+  "heroImageRights": {
+    "title": "白墙花影",
+    "creator": "AI 辅助生成（OpenAI image_gen），由项目维护者审核选用",
+    "source": "本项目 assets/weekly/2026-W46-courtyard.png；仅依据文字描述生成，未输入参考图片或导入第三方素材。完整制作记录见 assets/weekly/2026-W46-courtyard.md。",
+    "license": "经项目维护者视觉审核，选用于 Research Weekly 第 46 周演示周报。未另行附加素材许可证，不宣称公共领域或排他版权；第三方再利用须自行核实适用条款。",
+    "method": "使用内置 image_gen，根据白墙、传统屋檐、红色花木及庭院空间的文字需求生成，经维护者确认采用；本次素材整理未重新生成或修改图像。"
+  },
+  "themeColor": "#806b91"
+}
