@@ -1,0 +1,41 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+ <title id="title">秋水远山</title><desc id="desc">原创淡彩山水，紫灰远山隐入云雾，静水中一叶小舟，右侧秋枝带着暖黄树叶。</desc>
+ <defs>
+  <linearGradient id="mountain" x2="0" y2="1"><stop stop-color="#b9afc8" stop-opacity=".8"/><stop offset="1" stop-color="#e6e1ec" stop-opacity=".12"/></linearGradient>
+  <linearGradient id="lake" x2="0" y2="1"><stop stop-color="#d9e2e6" stop-opacity=".1"/><stop offset=".55" stop-color="#c8d8de" stop-opacity=".46"/><stop offset="1" stop-color="#e8edf0" stop-opacity="0"/></linearGradient>
+  <linearGradient id="near" x2="0" y2="1"><stop stop-color="#9b95ad" stop-opacity=".6"/><stop offset="1" stop-color="#d3cedd" stop-opacity=".08"/></linearGradient>
+ </defs>
+ <!-- Soft, open contours evoke brush washes without raster textures or scripts. -->
+ <ellipse cx="321" cy="274" rx="263" ry="105" fill="url(#lake)"/>
+ <path d="M34 222C76 217 92 185 114 161S141 139 151 118C158 103 163 99 172 114C190 146 192 151 208 161C227 174 240 193 264 206C293 221 322 218 351 231Z" fill="url(#mountain)"/>
+ <path d="M205 224C237 208 252 184 275 174C293 166 310 122 324 125C337 128 351 159 368 169C391 184 402 204 430 211C452 218 470 215 501 234Z" fill="url(#mountain)"/>
+ <path d="M369 236C395 229 421 191 438 185C450 180 461 163 470 169C480 176 486 193 501 198C522 205 548 221 586 237Z" fill="url(#near)"/>
+ <g fill="none" stroke="#aaa1b9" stroke-linecap="round">
+  <path d="M111 170C133 154 145 134 153 119M164 123C178 148 183 151 193 159" opacity=".25"/>
+  <path d="M289 174C306 154 312 139 323 132M331 141L344 161" opacity=".24"/>
+  <path d="M72 245Q132 239 206 245M254 242Q340 238 415 244M447 249Q497 244 549 248" opacity=".3"/>
+  <path d="M124 270Q205 265 271 270M318 284Q394 280 476 283M178 318Q243 315 308 319M367 334L414 333" stroke="#9cb2bc" opacity=".32"/>
+ </g>
+ <!-- A small boat leaves the center of the lake quiet and spacious. -->
+ <path d="M256 281Q274 285 294 280L287 287Q273 291 263 287Z" fill="#93888b" opacity=".68"/>
+ <path d="M274 281L275 268M270 273Q275 269 280 275M281 277L299 292" fill="none" stroke="#8f848b" stroke-width="1.6" stroke-linecap="round" opacity=".7"/>
+ <path d="M260 297Q280 299 299 295" fill="none" stroke="#b7c8cf" opacity=".5"/>
+ <!-- Autumn branch, drawn in warm ink, with individually placed leaves. -->
+ <g fill="none" stroke="#a6988b" stroke-linecap="round">
+  <path d="M621 371C583 337 580 301 555 269C543 252 525 242 508 229" stroke-width="3"/>
+  <path d="M578 311Q591 284 584 262M556 272Q537 282 516 278M540 252Q548 229 542 213M594 340Q563 337 550 325" stroke-width="1.6"/>
+ </g>
+ <g fill="#d6b66e" opacity=".82">
+  <path d="M508 230Q488 226 484 207Q503 207 508 230Z"/>
+  <path d="M524 241Q518 223 527 213Q537 231 524 241Z"/>
+  <path d="M542 215Q525 209 527 192Q544 198 542 215Z"/>
+  <path d="M546 233Q548 216 563 213Q564 229 546 233Z"/>
+  <path d="M584 264Q569 252 575 237Q590 247 584 264Z"/>
+  <path d="M587 282Q592 262 609 264Q604 282 587 282Z"/>
+  <path d="M530 278Q513 267 502 278Q511 289 530 278Z"/>
+  <path d="M556 326Q542 311 530 317Q535 332 556 326Z"/>
+ </g>
+ <g fill="#e3c98c" opacity=".7"><path d="M569 295Q553 284 548 294Q553 305 569 295Z"/><path d="M594 324Q599 309 612 312Q609 327 594 324Z"/><path d="M459 310Q465 304 472 310Q467 315 459 310Z"/></g>
+ <path d="M478 347Q508 341 538 346" fill="none" stroke="#c4d0d3" opacity=".35"/>
+ <g fill="none" stroke="#aca4b8" opacity=".45" stroke-linecap="round"><path d="M396 105q7-7 14 0q6-7 12-2"/><path d="M430 118q5-5 9 0q4-5 9-1"/></g>
+</svg>
