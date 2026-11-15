@@ -1,12 +1,48 @@
 {
- "id":"rw-public:2026-W46-demo","week":"2026-W46","startDate":"2026-11-09","endDate":"2026-11-15","date":"2026-11-15","demo":true,
- "title":"演示数据：2026 年第 46 周读取测试",
- "summary":"演示数据，仅验证公开 JSON 读取、主题筛选及阅读，不代表真实学术成果。",
- "body":"## 演示数据声明\n这是测试周报，没有正式发布的学术消息。\n\n## 本期测试\n验证公开索引、独立信息、评价与参考链接。",
- "entries":[{
-  "id":"rw-public:2026-W46-demo:reading-test","title":"演示数据：验证多标签信息与参考文献的阅读方式。","date":"2026-11-15","tags":["演示测试","资料整理"],
-  "detail":"## 演示内容\n本条不是论文摘要，不提出真实学术结论。\n\n## 测试方法\n打开详情，检查评价、参考链接及目录。",
-  "references":[{"title":"演示链接：本项目测试材料（非学术文献）","url":"https://example.com/","publishedAt":"2026-11-15","sourceType":"演示占位；日期为测试材料编制日期，非外部网页发表日期"}],
-  "evaluation":{"contribution":"演示数据：展示评价字段，无真实研究贡献。","evidence":"演示数据：仅以界面测试作为证据。","limitations":"不包含真实学术资料，不能用于研究引用。","basis":"依据本项目 v0.3a 功能测试要求编制。"}
- }]
+  "id": "rw-public:2026-W46-demo",
+  "week": "2026-W46",
+  "startDate": "2026-11-09",
+  "endDate": "2026-11-15",
+  "date": "2026-11-15",
+  "demo": true,
+  "title": "演示数据：2026 年第 46 周读取测试",
+  "summary": "演示数据，仅验证公开 JSON 读取、主题筛选及阅读，不代表真实学术成果。",
+  "body": "## 演示数据声明\n这是测试周报，没有正式发布的学术消息。\n\n## 本期测试\n验证公开索引、独立信息、评价与参考链接。",
+  "entries": [
+    {
+      "id": "rw-public:2026-W46-demo:reading-test",
+      "title": "演示数据：验证多标签信息与参考文献的阅读方式。",
+      "date": "2026-11-15",
+      "tags": [
+        "演示测试",
+        "资料整理"
+      ],
+      "detail": "## 演示内容\n本条不是论文摘要，不提出真实学术结论。\n\n## 测试方法\n打开详情，检查评价、参考链接及目录。",
+      "references": [
+        {
+          "title": "演示链接：本项目测试材料（非学术文献）",
+          "url": "https://example.com/",
+          "publishedAt": "2026-11-15",
+          "sourceType": "演示占位；日期为测试材料编制日期，非外部网页发表日期"
+        }
+      ],
+      "evaluation": {
+        "contribution": "演示数据：展示评价字段，无真实研究贡献。",
+        "evidence": "演示数据：仅以界面测试作为证据。",
+        "limitations": "不包含真实学术资料，不能用于研究引用。",
+        "basis": "依据本项目 v0.3a 功能测试要求编制。"
+      }
+    }
+  ],
+  "heroImage": "assets/weekly/2026-W46-lake.svg",
+  "heroImageAlt": "原创淡彩山水：淡紫灰远山环抱宁静水面，近处一枝暖黄色秋叶。",
+  "heroImageCredit": "Research Weekly · 原创 SVG，2026",
+  "themeColor": "#806b91",
+  "heroImageRights": {
+    "title": "秋水远山（原版演示插画，待视觉修订）",
+    "creator": "AI 辅助制作（SVG 代码）",
+    "source": "本项目 assets/weekly/2026-W46-lake.svg；未采用第三方图片素材",
+    "license": "项目原创制作记录；未附独立素材许可证，不宣称公共领域。正式发布前由维护者确认使用条件。",
+    "method": "根据项目文字需求，以 AI 辅助方式编写静态 SVG。新候选插画尚待选定，当前图片暂留。"
+  }
 }
