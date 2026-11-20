@@ -12,6 +12,12 @@
       "date": "2026-11-15",
       "demo": true,
       "path": "data/weekly/2026-W46-trial.json"
+    },
+    {
+      "id": "rw-public:2026-W47",
+      "date": "2026-11-20",
+      "demo": false,
+      "path": "data/weekly/2026-W47.json"
     }
   ]
 }
